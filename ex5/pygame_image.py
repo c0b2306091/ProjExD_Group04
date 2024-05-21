@@ -6,8 +6,8 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 
 def main():
-    pg.display.set_caption("はばたけ！こうかとん")
-    screen = pg.display.set_mode((800, 600))
+    pg.display.set_caption("見つけろ！こうかとん")
+    screen = pg.display.set_mode((1600, 900))
     clock  = pg.time.Clock()
     bg_img = pg.image.load("fig/pg_bg.jpg")
     Fscreen = pg.transform.flip(bg_img,True,False)
@@ -15,7 +15,7 @@ def main():
     kk_img = pg.transform.flip(kk_img,True,False)
     kk_img = pg.transform.rotozoom(kk_img,10,1.0)
     kk_rct = kk_img.get_rect()
-    kk_rct.center = 300,200
+    kk_rct.center = 800,450
     x=0
     y=0
 
