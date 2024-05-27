@@ -4,6 +4,10 @@ import pygame as pg
 import random 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
+"""追加機能
+ランダムでコウカトンを表示する
+"""
+
 def efect(screen):
     happy = pg.image.load("fig/6.png")
     Ans_rct = [random.randint(0, 1600), random.randint(0, 900)]
