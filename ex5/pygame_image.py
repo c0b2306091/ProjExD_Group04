@@ -25,7 +25,7 @@ def main():
     kk_img = pg.transform.flip(kk_img,True,False)
     kk_img = pg.transform.rotozoom(kk_img,10,1.0)
     kk_rct = kk_img.get_rect()
-    kk_rct.center = 300,200
+    kk_rct.center = 300,200 #こうかとんの初期位置、表示　->こうかとんをランダムで生成する関数の実装後、削除
     x=300 #判定の初期位置
     y=200 
 
